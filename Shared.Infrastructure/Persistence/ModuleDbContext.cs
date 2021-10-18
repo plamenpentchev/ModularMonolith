@@ -15,6 +15,8 @@ namespace Shared.Infrastructure.Persistence
         {
 
         }
+
+        protected void test() { }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             if (!string.IsNullOrWhiteSpace(Schema))
